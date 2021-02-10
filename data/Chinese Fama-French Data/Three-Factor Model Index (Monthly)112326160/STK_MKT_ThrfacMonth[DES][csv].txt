@@ -1,0 +1,17 @@
+MarkettypeID [Market Type Code] - P9705:ChiNext; 
+P9706:Aggregate A share; 
+P9707:Aggregate B share; 
+P9709:Aggregate A share and ChiNext; 
+P9710:Aggregate A & B share and ChiNext;
+P9711:SSE STAR Market;
+P9712:Aggregate A share and SSE STAR Market;
+P9713:Aggregate A & B share and SSE STAR Market;
+P9714:Aggregate A share and ChiNext and SSE STAR Market;
+P9715:Aggregate A & B share and ChiNext and SSE STAR Market.
+TradingMonth [Trading Month] - Denoted by YYYY-MM
+RiskPremium1 [Market Risk Premium Factor (Weighted Average Value of Negotiable Shares)] - Difference between monthly market return (cash dividends reinvestment included) (Negotiable market value weighted average method) and monthly risk-free interest rate.The Market refers to Aggregate A & B share and ChiNext.
+RiskPremium2 [Market Risk Premium Factor (Weighted Average of Total Market Value)] - Difference between monthly market return (cash dividends reinvestment included) (Total market value weighted average method) and monthly risk-free interest rate.The Market refers to Aggregate A & B share and ChiNext.
+SMB1 [Market Value Factor (Weighted Average Value of Negotiable Shares)] - Difference between monthly return on portfolio of small companies and monthly return on portfolio of big companiesMonthly return on portfolio is calculated on the basis of negotiable market capitalization weighted.Big companies are the top 30% by negotiable market capitalization on the last trading day of the month. Small companies are the bottom 30% by negotiable market capitalization on the last trading day of the month
+SMB2 [Market Value Factor (Weighted Average of Total Market Value)] - Difference between monthly return on portfolio of small companies and monthly return on portfolio of big companiesMonthly return on portfolio is calculated on the basis of total market capitalization weighted.
+HML1 [Book-to-Market Ratio Factor (Weighted Average Value of Negotiable Shares)] - Difference between monthly return (cash dividends reinvestment included) on portfolio of companies with high book-to-market ratio and monthly return (cash dividends reinvestment included) on portfolio of companies with low book-to-market ratio. Return on portfolio is calculated on the basis of negotiable market capitalization weighted.Companies with high book-to-market ratio are the top 30% by ratio of net asset value to negotiable market capitalization (reciprocal of P/B Ratio) Companies with low book-to-market ratio are the bottom 30% by ratio of net asset value to negotiable market capitalization (reciprocal of P/B Ratio)
+HML2 [Book-to-Market Ratio Factor (Weighted Average of Total Market Value)] - Difference between monthly return (cash dividends reinvestment included) on portfolio of companies with high book-to-market ratio and monthly return (cash dividends reinvestment included) on portfolio of companies with low book-to-market ratio. Return on portfolio is calculated on the basis of total market capitalization weighted.
