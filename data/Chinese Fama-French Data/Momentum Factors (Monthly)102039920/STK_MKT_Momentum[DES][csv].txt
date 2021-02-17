@@ -1,0 +1,22 @@
+TradingMonth [Trading Month] - In the format of YYYY-MM
+MarkettypeID [Market Type Code] - P9705:ChiNext; 
+P9706:Aggregate A share; 
+P9707:Aggregate B share; 
+P9709:Aggregate A share and ChiNext; 
+P9710:Aggregate A & B share and ChiNext; 
+P0300: CSI 300;
+P9711:SSE STAR Market;
+P9712:Aggregate A share and SSE STAR Market;
+P9713:Aggregate A & B share and SSE STAR Market;
+P9714:Aggregate A share and ChiNext and SSE STAR Market;
+P9715:Aggregate A & B share and ChiNext and SSE STAR Market.
+
+Quantile [Quantile] - Quantiles of the sorted samples
+StockClass [Stock Sample Type] - 0 denotes the whole sample; 1 denotes the sample excluding financial stocks, insurance stocks and ST-type stocks.
+FormationPeriod [Formation Period] - Time period of the formation of momentum-effect investment strategy portfolio
+MomRe1 [Momentum Factor_Cumulative Return (Negotiable Market Value)] - Stocks are ranked according to cumulative return during formation period; the negotiable market value weighted rate of return of the stock portfolio ranked in the top n% - the negotiable market value weighted rate of return of the stock portfolio ranked in the bottom n%. (Cumulative return needs to be calculated with 1 month delayed.)
+MomRe2 [Momentum Factor_Cumulative Return (Market Capitalization)] - Stocks are ranked according to cumulative return during formation period; the market capitalization-weighted rate of return of the stock portfolio ranked in the top n% - the market capitalization-weighted rate of return of the stock portfolio ranked in the bottom n%. (Cumulative return needs to be calculated with 1 month delayed.)
+MomRe3 [Momentum Factor_Cumulative return (Equal-weighted)] - Stocks are ranked according to cumulative return during formation period; the equal-weighted rate of return of the stock portfolio ranked in the top n% - the equal-weighted rate of return of the stock portfolio ranked in the bottom n%. (Cumulative return needs to be calculated with 1 month delayed.)
+Mom52Weeks1 [Momentum Factor_52-Week (Negotiable Market Value Weighted)] - Stocks are ranked according to the 52-Week Method which is based on: the stock closing price at the end of month t-1 / the highest closing price during formation period; the negotiable value weighted rate of return of ranked in the top n% - the negotiable value weighted rate of return of the n% stock portfolio with the lowest ratio. (The formation period covers 12 months, or 52 weeks.)
+Mom52Weeks2 [Momentum Factor_52-Week (Market Capitalization-weighted)] - Stocks are ranked according to the 52-Week Method, based on: the stock closing price at the end of month t-1 / the highest closing price during formation period; the market capitalization-weighted rate of return of the stock portfolio ranked in the top n% - the market capitalization-weighted rate of return of the stock portfolio ranked in the bottom n%. (The formation period covers 12 months, or 52 weeks.)
+Mom52Weeks3 [Momentum Factor_52-Week (Equal-weighted)] - Stocks are ranked according to the 52-Week Method, based on: the stock closing price at the end of month t-1 / the highest closing price during formation period; the equal-weighted rate of return of the stock portfolio ranked in the top n% - the equal-weighted rate of return of the stock portfolio ranked in the bottom n%. (The formation period covers 12 months, or 52 weeks.)
